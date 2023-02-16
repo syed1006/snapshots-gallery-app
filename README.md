@@ -1,0 +1,1 @@
+# snapshots-gallery-app
