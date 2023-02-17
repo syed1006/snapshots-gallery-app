@@ -10,13 +10,11 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path='/' element={<ImagesContainer category='general' key='general' />} />
-          <Route exact path='/business' element={<ImagesContainer category='business' key='business' />} />
-          <Route exact path='/entertainment' element={<ImagesContainer category='entertainment' key='entertainment' />} />
-          <Route exact path='/health' element={<ImagesContainer category='health' key='health' />} />
-          <Route exact path='/sports' element={<ImagesContainer category='sports' key='sports' />} />
-          <Route exact path='/science' element={<ImagesContainer category='science' key='science' />} />
-          <Route exact path='/technology' element={<ImagesContainer category='technology' key='technology' />} />
+          <Route exact path='/' element={<ImagesContainer category='world' key='world' />} />
+          <Route exact path='/mountain' element={<ImagesContainer category='mountain' key='mountain' />} />
+          <Route exact path='/beaches' element={<ImagesContainer category='beaches' key='beaches' />} />
+          <Route exact path='/food' element={<ImagesContainer category='food' key='food' />} />
+          <Route exact path='/birds' element={<ImagesContainer category='birds' key='birds' />} />
         </Routes>
       </BrowserRouter>
     </AppState>
