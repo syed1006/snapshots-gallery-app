@@ -1,0 +1,8 @@
+.item{
+    width: 300px;
+    display: inline-block;
+}
+
+.item>img{
+    width: 100%;
+}

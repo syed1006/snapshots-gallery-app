@@ -18,6 +18,7 @@ function Navbar() {
                         <li className={`category ${location.pathname === '/beaches' ? state.theme ?'active-dark': 'active-light' : ''}`}><Link to={'/beaches'}>Beaches</Link></li>
                         <li className={`category ${location.pathname === '/food' ? state.theme ?'active-dark': 'active-light' : ''}`}><Link to={'/food'}>Food</Link></li>
                         <li className={`category ${location.pathname === '/birds' ? state.theme ?'active-dark': 'active-light' : ''}`}><Link to={'/birds'}>Birds</Link></li>
+                        <li className={`category ${location.pathname === '/search' ? state.theme ?'active-dark': 'active-light' : ''}`}><Link to={'/search'}>Search</Link></li>
                     </ul>
                 </nav>
                 <div className="dm-btn" onClick={updateTheme}>
